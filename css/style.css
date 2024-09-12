@@ -109,7 +109,6 @@ body{
     box-shadow: 0 0 10px var(--focus-shadow);
 }
 
-
 .button{
     display: block;
     background: var(--background-button);
@@ -122,11 +121,5 @@ body{
     &:hover{
         background-color: var(--hover-button);
         cursor:pointer;
-    }
-}
-
-@media (width <= 730px){
-    .form__label{
-        text-align: start;
     }
 }
